@@ -28,3 +28,4 @@ Feel free to experiment with different video files and resolutions to observe th
 https://github.com/khethan123/LipSync/assets/100506743/3a6c1dc6-02e8-4e2f-a231-48c87c385ba9
 https://github.com/khethan123/LipSync/assets/100506743/ac446396-3933-4ebb-9c02-4743892542a0
 
+<video src='https://github.com/khethan123/LipSync/assets/100506743/3a6c1dc6-02e8-4e2f-a231-48c87c385ba9' width=180/> | <video src='https://github.com/khethan123/LipSync/assets/100506743/ac446396-3933-4ebb-9c02-4743892542a0' width=180/>
