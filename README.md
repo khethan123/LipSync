@@ -26,6 +26,16 @@ Follow these steps to use the code:
 
 Feel free to experiment with different video files and resolutions to observe the code's performance.
 
+Use FFmpeg to change the resolution of a video from 720p to another resolution. You can use this command in a Google Colab notebook or on a local machine if you want to change the resolution of the output video file.
+* In Google Colab Notebook
+``` python
+!ffmpeg -i "input/file/path" -vf "scale=1920:1080:flags=lanczos" -sws_dither ed -c:v libx264 -crf 18 -preset slow "output/file/path"
+``` 
+* In Local Machine
+```bash
+ffmpeg -i "input/file/path" -vf "scale=1920:1080:flags=lanczos" -sws_dither ed -c:v libx264 -crf 18 -preset slow "output/file/path"
+```
+Make sure to adjust the input and output file paths to your specific requirements and also change scale according to your preference.<br>
 **Note: When using Google Colab, remember to change the runtime type to GPU for faster video processing.**
 
 ### Final output.
