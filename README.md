@@ -10,6 +10,7 @@ The code utilizes the **MoviePy** library to process video files. Here's how it 
 - The final video has no audio, as lip-syncing involves replacing the original audio with synchronized lip movements.
 
 The final video file along with audio file are passed to the selected model.
+<video src='https://github.com/khethan123/LipSync/assets/100506743/3a6c1dc6-02e8-4e2f-a231-48c87c385ba9' width=60/> 
 
 ## How to Run
 
@@ -25,6 +26,5 @@ Feel free to experiment with different video files and resolutions to observe th
 
 **Note: When using Google Colab, remember to change the runtime type to GPU for faster video processing.**
 
-
-  
+### Final output.
 <video src='https://github.com/khethan123/LipSync/assets/100506743/ac446396-3933-4ebb-9c02-4743892542a0' width=60/>
