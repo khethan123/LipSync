@@ -4,10 +4,12 @@ This code performs *lip-syncing* operations using the `Wav2Lip` model. It takes 
 
 ## How It Works
 
-The code utilizes the MoviePy library to process video files. Here's how it works:
+The code utilizes the **MoviePy** library to process video files. Here's how it works:
 - It checks the video duration, and if it exceeds 70 seconds, a warning is issued, as processing such long videos can be time-consuming.
 - If the video resolution is greater than or equal to 1920x1080, it resizes the video to 720p (1280x720). Lower resolution videos typically yield better lip-sync results.
 - The final video has no audio, as lip-syncing involves replacing the original audio with synchronized lip movements.
+
+The final video file along with audio file are passed to the selected model.
 
 ## How to Run
 
